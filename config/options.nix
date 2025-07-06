@@ -3,9 +3,14 @@
 
   keymaps = [
     {
-      mode = [ "n" ],
+      mode = "n",
       key = "-",
       action = "<CMD>Oil<CR>"
+    },
+    {
+      mode = "n";
+      key = "<ESC>"
+      action = "<cmd>nohlsearch<CR>";
     }
   ];
 }
